@@ -19,7 +19,7 @@ function App() {
       createUser(user)
         .then(response => {
           console.log(response);
-          setNumberOfUsers(numberOfUsers+1)
+          setNumberOfUsers(numberOfUsers + 1)
       });
   }
 
